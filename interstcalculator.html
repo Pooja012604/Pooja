@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>interst calculator</title>
+        <style>
+            *{
+                margin:0;
+                padding: 0;
+            }
+          body{
+            display: flex;
+            height: 100vh;
+            color: black;
+            justify-content: center;
+            background-color: beige;
+            align-items: center;
+          }
+          h3{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            font-size: 1.5rem;
+            margin: 4%;
+          }
+          input{
+            width:100%;
+            border:1px solid black;
+            font-size: medium;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border: radius 20px;
+            text-align: center;
+            margin: top 3px;
+          }
+          .btn{
+            width:50%;
+            font-size: 1rem;
+            border:none;
+            font-family:monospace;
+            text-align: center;
+            margin-top: 8%;
+            margin-left: 25%;
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border-radius: 25px;  
+          }
+          btn.hover{
+            transition: 2s ease;
+            background-color:transparent;
+            color:blue;
+          }
+          .res{
+            font-size: 2rem;
+            font-family: monospace;
+          }
+        </style>
+        <body>
+        <div class="container">
+            <h3>Enter Principle</h3>
+            <input type="text" id="pr">
+            <h3>Enter Rate of interst</h3>
+            <input type="text" id="roi">
+            <h3>Enter years</h3>
+            <input type="text" id="yr">
+            <button class="btn"
+            onclick=calculate()>calculate</button>
+            <br>
+            <br>
+            <span id="res">$</span>       
+    </div>
+    </body>
+    </head>
+</html>

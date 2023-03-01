@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>"nthline solutions"</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <div class="container">
+        <div class="navbar">
+            <img src="C:\Users\pooja\OneDrive\Desktop\web\nth.jpeg" class="logo">
+            <nav>
+                <ul id="menulist">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <link ref="nth2.html">
+                    <li><a href="">CONTACT US</a></li>
+                    <li><a href="">CAREERS</a></li>
+                    <li><a href="">REVIEW</a></li>
+                </ul>
+            </nav>
+            <imag src="C:\Users\pooja\AppData\Local\Temp\Temp1_Playstation_Img.zip\Playstation_Img\menu.png" class="menu-icon" 
+            onclick="togglemenu()" ></imag>
+        </div>
+            <div class="content">
+                <h1>Creating The Virtual world</h1>
+                <p>Experience The Virtual world</p>
+                
+            </div>
+            <div class="social-links">
+                <a href=""> FACEBOOK </a>
+                <a href=""> INSTAGRAM </a>
+                <a href=""> TWITTER </a>
+                <a href=""> LINKDIN </a>
+            </div>
+            <div class="color-box">
+                <form>
+                    <lable for="Uname">Username:</lable><br>
+                    <input type:"text" id="uname" name="uname" value=""><br>
+                    <lable for="pword">Password:</lable><br>
+                    <input type:"text" id="pword" name="pword" value=""><br><br>
+                    <button type="button">Login</button>
+                </form>
+            </div>
+        </div>
+        <script>
+            var menulist = document.getElementById("menulist");
+            menulist.style.maxheight = "0px";
+            function togglemenu(){
+                if(menulist.style.maxheight =="0px")
+                {
+                    menulist.style.maxheight="130px";
+                }
+                else{
+                    menulist.style.maxheight ="0px";
+                }
+            }
+        </script>
+    </body>
+</html>
